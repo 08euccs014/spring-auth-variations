@@ -1,0 +1,30 @@
+2024-01-09T14:40:39.969+05:30  INFO 267495 --- [main] com.a3logics.demo.DemoApplication        : Starting DemoApplication using Java 17.0.9 with PID 267495 (/vobs/experimental/spring/build/classes/java/main started by a3logics in /vobs/experimental/spring)
+2024-01-09T14:40:39.971+05:30  INFO 267495 --- [main] com.a3logics.demo.DemoApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-01-09T14:40:40.345+05:30  INFO 267495 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-09T14:40:40.379+05:30  INFO 267495 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2024-01-09T14:40:40.700+05:30  INFO 267495 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-01-09T14:40:40.708+05:30  INFO 267495 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-09T14:40:40.708+05:30  INFO 267495 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-09T14:40:40.740+05:30  INFO 267495 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-09T14:40:40.740+05:30  INFO 267495 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 740 ms
+2024-01-09T14:40:40.816+05:30  INFO 267495 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-09T14:40:40.843+05:30  INFO 267495 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-09T14:40:40.867+05:30  INFO 267495 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-09T14:40:40.984+05:30  INFO 267495 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-09T14:40:40.998+05:30  INFO 267495 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-09T14:40:41.091+05:30  INFO 267495 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@418f0534
+2024-01-09T14:40:41.092+05:30  INFO 267495 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-09T14:40:41.108+05:30  WARN 267495 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-09T14:40:41.573+05:30  INFO 267495 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-09T14:40:41.594+05:30  INFO 267495 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-09T14:40:41.805+05:30  WARN 267495 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-09T14:40:41.993+05:30  INFO 267495 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@43b7bd5a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37fd496a, org.springframework.security.web.context.SecurityContextHolderFilter@61c3d7ac, org.springframework.security.web.header.HeaderWriterFilter@73b10975, org.springframework.security.web.authentication.logout.LogoutFilter@6f6c6c70, com.a3logics.demo.auth.JwtRequestFilter@293ecff6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5d10df04, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30221cfa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@662061e3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c4e486e, org.springframework.security.web.session.SessionManagementFilter@24482a4f, org.springframework.security.web.access.ExceptionTranslationFilter@2cd877d3, org.springframework.security.web.access.intercept.AuthorizationFilter@7e7987b8]
+2024-01-09T14:40:42.096+05:30  INFO 267495 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path ''
+2024-01-09T14:40:42.103+05:30  INFO 267495 --- [main] com.a3logics.demo.DemoApplication        : Started DemoApplication in 2.376 seconds (process running for 2.549)
+2024-01-09T14:40:56.097+05:30  INFO 267495 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-09T14:40:56.098+05:30  INFO 267495 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-09T14:40:56.099+05:30  INFO 267495 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-01-09T14:40:59.044+05:30  INFO 267495 --- [http-nio-8000-exec-3] com.a3logics.demo.auth.UserService       : --------i am here in user service mohit
+2024-01-09T14:41:11.532+05:30  INFO 267495 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-09T14:41:11.535+05:30  INFO 267495 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-09T14:41:11.538+05:30  INFO 267495 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
